@@ -1,0 +1,76 @@
+.charts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #283048, #859398);
+    padding: 20px;
+  }
+  
+  .charts-header {
+    font-size: 36px;
+    color: #e0e0e0;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .charts-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #333;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .pie-chart-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .stats {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .stats-title {
+    font-size: 24px;
+    color: #e0e0e0;
+    margin-bottom: 10px;
+  }
+  
+  .stats-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .stats-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #c0c0c0;
+    border-bottom: 1px solid #555;
+    padding: 10px 0;
+  }
+  
+  .stats-label {
+    font-weight: bold;
+    color: #e0e0e0;
+  }
+  
+  .stats-value {
+    color: #fff;
+  }
+  
+  .recharts-default-tooltip {
+    background: rgba(0, 0, 0, 0.9);
+    color: #e0e0e0;
+    border-radius: 6px;
+    padding: 8px;
+  }
+  

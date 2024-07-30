@@ -1,0 +1,96 @@
+.buy-container {
+  padding: 50px;
+  background-color: bisque;
+}
+
+.properties-list {
+  padding-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px;
+}
+
+.property-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: calc(33.333% - 15px);
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.property-card img {
+  width: 100%;
+  height: 250px;
+  border-radius: 8px 8px 0 0;
+}
+
+.property-card h2 {
+  margin: 10px 0 5px;
+  font-size: 1.2em;
+}
+
+.property-card p {
+  margin: 5px 0;
+}
+
+.property-card:hover {
+  box-shadow: 0 4px 8px rgb(218, 108, 6);
+}
+
+.property-details {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: bisque;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 90%;
+  max-height: 90%;
+  box-shadow: 0 4px 8px rgb(143, 89, 89);
+  z-index: 1000;
+}
+.sh2{
+  font-size: 45px;
+}
+.simg{
+  padding: 30px;
+  height: fit-content;
+  border-radius: 4px;
+}
+.sp{
+  padding-top: 10px;
+  padding-left: 15px;
+}
+.property-details img {
+  width: 100%;
+  height: 400px;
+  border-radius: 8px;
+}
+
+.property-details button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  height: 30px;
+  width: 30px;
+}
+
+.property-details button:hover {
+  background: darkred;
+}
+
+.blur-background {
+  filter: blur(5px);
+  pointer-events: none;
+  user-select: none;
+}

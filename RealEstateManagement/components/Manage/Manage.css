@@ -1,0 +1,40 @@
+.manage-container {
+    height: 200px;
+    width: 700px;
+    border: 2px solid black;
+    padding: 20px;
+    box-shadow: 10px 10px 0px 0px grey;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    margin-left: 330px;
+    margin-bottom: 30px;
+  }
+  .manage-header{
+    margin: 30px;
+  }
+  .manage-container img {
+    width: 200px;
+    height: 170px;
+    margin-right: 10px;
+    border-radius: 25px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 0px 0px grey;
+  }
+  
+  .manage-container span {
+    flex-grow: 1;
+    padding-left: 80px;
+    font-weight: 600;
+    font-size: x-large;
+  }
+  
+  .manage-container button {
+    margin-left: auto;
+  }
+
+  .manage-container button:hover {
+    background-color: red;
+  }
+  

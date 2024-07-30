@@ -1,0 +1,94 @@
+{
+  "properties": [
+    {
+      "id": "1",
+      "type": "House",
+      "image": "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "sqft": "2500 sqft",
+      "location": "1234 Elm Street, Springfield, IL",
+      "contact": "Owner: John Doe, Phone: (555) 123-4567",
+      "details": "A beautiful 3-bedroom house with a large backyard and modern amenities."
+    },
+    {
+      "id": "2",
+      "type": "Land",
+      "image": "https://images.pexels.com/photos/1000057/pexels-photo-1000057.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "sqft": "1 acre",
+      "location": "5678 Oak Street, Springfield, IL",
+      "contact": "Owner: Jane Smith, Phone: (555) 987-6543",
+      "details": "A prime piece of land perfect for building your dream home or investment property."
+    },
+    {
+      "id": "3",
+      "type": "Apartment",
+      "image": "https://images.pexels.com/photos/681331/pexels-photo-681331.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "sqft": "1500 sqft",
+      "location": "7890 Pine Street, Springfield, IL",
+      "contact": "Owner: Michael Johnson, Phone: (555) 246-8101",
+      "details": "A modern 2-bedroom apartment with city views and state-of-the-art facilities."
+    },
+    {
+      "id": "4",
+      "type": "Condo",
+      "image": "https://images.pexels.com/photos/221506/pexels-photo-221506.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "sqft": "1200 sqft",
+      "location": "1357 Maple Street, Springfield, IL",
+      "contact": "Owner: Emily Davis, Phone: (555) 357-9123",
+      "details": "A stylish 2-bedroom condo with a swimming pool and gym access."
+    },
+    {
+      "id": "5",
+      "type": "Villa",
+      "image": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "sqft": "4000 sqft",
+      "location": "2468 Birch Street, Springfield, IL",
+      "contact": "Owner: Robert Brown, Phone: (555) 468-1357",
+      "details": "A luxurious 5-bedroom villa with a private pool and spacious garden."
+    },
+    {
+      "id": "6",
+      "type": "Townhouse",
+      "image": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "sqft": "2000 sqft",
+      "location": "9021 Cedar Street, Springfield, IL",
+      "contact": "Owner: Laura Wilson, Phone: (555) 789-2468",
+      "details": "A charming 3-bedroom townhouse in a quiet neighborhood with a small garden."
+    },
+    {
+      "id": "7",
+      "type": "Ranch",
+      "image": "https://images.pexels.com/photos/1001470/pexels-photo-1001470.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "sqft": "5000 sqft",
+      "location": "1112 Elm Street, Springfield, IL",
+      "contact": "Owner: Richard Taylor, Phone: (555) 112-3344",
+      "details": "A spacious ranch-style home with a large plot of land and modern amenities."
+    },
+    {
+      "id": "8",
+      "type": "Cottage",
+      "image": "https://images.pexels.com/photos/1131573/pexels-photo-1131573.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "sqft": "1800 sqft",
+      "location": "3334 Pine Street, Springfield, IL",
+      "contact": "Owner: Patricia Anderson, Phone: (555) 998-7766",
+      "details": "A cozy 2-bedroom cottage with a beautiful garden and rustic charm."
+    },
+    {
+      "id": "10",
+      "type": "Farmhouse",
+      "image": "https://images.pexels.com/photos/2360673/pexels-photo-2360673.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "sqft": "6000 sqft",
+      "location": "7778 Birch Street, Springfield, IL",
+      "contact": "Owner: Barbara Thomas, Phone: (555) 667-7889",
+      "details": "A large farmhouse with extensive land, perfect for agricultural use or a retreat."
+    },
+    {
+      "id": "91",
+      "type": "Field",
+      "image": "https://images.unsplash.com/photo-1470687372616-d48d122e3b06?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZpZWxkc3xlbnwwfHwwfHx8MA%3D%3D",
+      "sqft": "3000 sqrt",
+      "location": "Coimbatore",
+      "contact": "4321-567890",
+      "details": "asdfghjkjhgfc"
+    }
+  ]
+}
