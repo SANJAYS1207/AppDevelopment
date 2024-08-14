@@ -1,0 +1,69 @@
+/* Register Form Container Styles */
+.register-form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Register Form Title Styles */
+  .register-form-title {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Register Form Input Styles */
+  .register-form-input {
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Register Form Button Styles */
+  .register-form-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .register-form-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Cancel Button Styles */
+  .register-form-button.cancel {
+    background-color: #f44336;
+  }
+  
+  .register-form-button.cancel:hover {
+    background-color: #e53935;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .register-form-container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .register-form-button {
+      width: 100%;
+      margin-top: 5px;
+    }
+  }
+  

@@ -1,0 +1,105 @@
+/* Scoped styles for Contact page */
+.contact-container {
+  --primary-color: #1a73e8;
+  --secondary-color: #ffffff;
+  --background-color: #f4f4f4;
+  --border-color: #ddd;
+  --input-background: #fff;
+  --input-border: #ccc;
+  --input-focus: #1a73e8;
+  --button-hover: #e75c1b;
+  --text-color: #333;
+}
+
+.contact-container body {
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+}
+
+.contact-container .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: var(--background-color);
+}
+
+.contact-container .Contact {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+.contact-container .Contact-item h1 {
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.contact-container .Contact-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container .Contact-item .MuiTextField-root,
+.contact-container .Contact-item .MuiAutocomplete-root,
+.contact-container .Contact-item .MuiButton-root {
+  margin-bottom: 15px;
+}
+
+.contact-container .MuiTextField-root {
+  background-color: var(--input-background);
+}
+
+.contact-container .MuiTextField-root .MuiOutlinedInput-root {
+  border-color: var(--input-border);
+}
+
+.contact-container .MuiTextField-root .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: var(--input-focus);
+}
+
+.contact-container .MuiTextField-root .MuiInputLabel-root.Mui-focused {
+  color: var(--input-focus);
+}
+
+.contact-container .MuiButton-contained {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.contact-container .MuiButton-contained:hover {
+  background-color: var(--button-hover);
+}
+
+@media (max-width: 768px) {
+  .contact-container .Contact {
+    padding: 15px;
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .contact-container :root {
+    --font-size: 14px;
+  }
+
+  .contact-container .Contact {
+    padding: 10px;
+  }
+
+  .contact-container .Contact-item h1 {
+    font-size: 1.5rem;
+  }
+
+  .contact-container .MuiTextField-root,
+  .contact-container .MuiAutocomplete-root,
+  .contact-container .MuiButton-root {
+    width: 100%;
+  }
+}

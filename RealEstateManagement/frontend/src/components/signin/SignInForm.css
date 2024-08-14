@@ -1,0 +1,88 @@
+/* Form Container Styles */
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+  }
+  
+  /* Title Styles */
+  .form-title {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Radio Button Group Styles */
+  .radio-group {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  
+  .radio-label {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .radio-input {
+    margin-right: 10px;
+  }
+  
+  /* Form Input Styles */
+  .form-input {
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Button Styles */
+  .form-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Cancel Button Styles */
+  .form-button.cancel {
+    background-color: #f44336;
+  }
+  
+  .form-button.cancel:hover {
+    background-color: #e53935;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .form-container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .form-button {
+      width: 100%;
+      margin-top: 5px;
+    }
+  }
+  

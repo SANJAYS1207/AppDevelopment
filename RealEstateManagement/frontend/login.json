@@ -1,0 +1,76 @@
+{
+  "admin": [
+    {
+      "id": "2017",
+      "username": "Coder",
+      "email": "saro@bing.com",
+      "password": "asdfg",
+      "firstName": "Saravanan",
+      "lastName": "P",
+      "address": "mdams",
+      "phoneNumber": "99264121418"
+    },
+    {
+      "id": "0c99",
+      "username": "",
+      "email": "",
+      "password": "",
+      "firstName": "",
+      "lastName": "",
+      "address": "",
+      "phoneNumber": ""
+    },
+    {
+      "id": "985f",
+      "username": "admin",
+      "email": "saro@bing.com",
+      "password": "admin@123",
+      "firstName": "Saravanan",
+      "lastName": "P",
+      "address": "mdams",
+      "phoneNumber": "99264121418"
+    },
+    {
+      "id": "5d24",
+      "username": "admin",
+      "email": "saro@bing.com",
+      "password": "admin@123",
+      "firstName": "Saravanan",
+      "lastName": "P",
+      "address": "mdams",
+      "phoneNumber": "99264121418"
+    }
+  ],
+  "user": [
+    {
+      "id": "a225",
+      "username": "SANJAY S",
+      "email": "727722eucs152@skcet.ac.in",
+      "password": "12356789",
+      "firstName": "Sanjay",
+      "lastName": "S",
+      "address": "Sri Krishna College of Engineering and Technology,Coimbatore",
+      "phoneNumber": "6382581440"
+    },
+    {
+      "id": "82c5",
+      "username": "shivaram",
+      "email": "shivaram@gmail.com",
+      "password": "ABCdef@123",
+      "firstName": "Shivaram",
+      "lastName": "J",
+      "address": "Madurai",
+      "phoneNumber": "9342925521"
+    },
+    {
+      "id": "004d",
+      "username": "venu",
+      "email": "venu@gmail.com",
+      "password": "asdfgh",
+      "firstName": "Venu",
+      "lastName": "Prasath",
+      "address": "Sathyamangalm,Erode",
+      "phoneNumber": "5816195679"
+    }
+  ]
+}
